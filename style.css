@@ -1,0 +1,58 @@
+body{
+  margin: 20px;
+  background-size:100%;
+  background-image :url("Galaxy.jpg");
+}
+#Subtitle{
+  font: serif,arial;
+  font-size: 20px;
+  color: #dd4c42;
+}
+#Calm{
+  font:garamond,sans-serif;
+  font-size: 22px;
+  color:#dd4c42;
+}
+#Middle{
+  font:arial,serif;
+  font-size: 24px;
+  color: #992c39
+}
+p{
+  font-size: 20px;
+  font:arial,serif;
+  color: #f74538;
+  font-weight: bolder;
+}
+#Bottom{
+  font-size: 26px;
+  font:sans-serif,arial;
+  color: #f74538;
+}
+.Name0{
+  font-family: fantasy;
+  color: #423f3e;
+}
+.Name1{
+  font-family: inherit;
+  color: #380f01;
+}
+h1{
+  color:#e07d76;
+  text-align: center;
+  font-weight: bold;
+}
+p{
+  color: brown;
+}
+table{
+
+  border: 2px black;
+  border-collapse: collapse;
+  width:auto;
+  text-align: center;
+}
+th,tr{
+  border: 1px black;
+  padding: 5px;
+}
