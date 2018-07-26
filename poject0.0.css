@@ -1,0 +1,36 @@
+@media print{
+  .Coelho{
+    display: none;
+  }
+}
+#Titles{
+  color: bold black;
+  background-color: inherit;
+}
+.container{
+  background-color: inherit;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+a{
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.book-description{
+  padding: 15px;
+  font-style: arial,sans-serif;
+  color: black;
+  font-size: 18px;
+}
+div>p{
+  font-size: 25px;
+  color: bold black;
+  content: ""
+}
+div>p::before{
+  content: "&#xe072"
+}
