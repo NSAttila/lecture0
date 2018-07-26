@@ -26,11 +26,11 @@ a{
   color: black;
   font-size: 18px;
 }
-div>p{
+.book-title{
   font-size: 25px;
   color: bold black;
   content: ""
 }
-div>p::before{
-  content: "&#xe072"
+.book-title::before{
+  content: "-"
 }
