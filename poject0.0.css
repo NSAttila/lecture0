@@ -7,6 +7,13 @@
   color: bold black;
   background-color: inherit;
 }
+body{
+  background-color: rgb(255, 255, 204);
+}
+input{
+  background-color: rgb(218, 255, 179);
+  placeholder-color: rgb(77, 153, 0);
+}
 .container{
   background-color: inherit;
   display: grid;
